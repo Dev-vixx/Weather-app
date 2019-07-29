@@ -1,0 +1,157 @@
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  67% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  67% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-name: fadein;
+          animation-name: fadein;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+._n_v_b {
+  -webkit-box-shadow: 0 2px 5px #aaa;
+          box-shadow: 0 2px 5px #aaa;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background: #fff;
+  top: 0;
+  z-index: 999;
+}
+
+._n_v_b .menu {
+  left: 20px;
+  top: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+._n_v_b ._b_r_d {
+  cursor: pointer !important;
+  font-family: 'raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #000;
+  font-size: 17px;
+  left: 60px;
+  top: 15px;
+}
+
+._n_v_b ._b_r_d a {
+  color: #000;
+  text-decoration: none;
+}
+
+._n_v_b div[role="navigation"] {
+  padding-left: 23% !important;
+  line-height: 2;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+@media (max-width: 900px) {
+  ._n_v_b div[role="navigation"] {
+    padding-left: 33% !important;
+  }
+}
+
+@media (max-width: 700px) {
+  ._n_v_b div[role="navigation"] {
+    display: none;
+  }
+}
+
+._n_v_b div[role="navigation"] li {
+  font-family: 'raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style: none;
+  padding: 12px;
+  font-size: 13px !important;
+  text-transform: capitalize;
+  letter-spacing: 1.3px;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+._n_v_b div[role="navigation"] li:nth-child(1) a.active,
+._n_v_b div[role="navigation"] li:nth-child(1) a:hover {
+  color: #000;
+  padding: 10px;
+  background: #f67f00;
+  border-radius: 4.5px;
+}
+
+._n_v_b div[role="navigation"] li:nth-child(2) a.active,
+._n_v_b div[role="navigation"] li:nth-child(2) a:hover {
+  background: #e61c35 !important;
+  color: #fff !important;
+}
+
+._n_v_b div[role="navigation"] li:nth-child(3) a.active,
+._n_v_b div[role="navigation"] li:nth-child(3) a:hover {
+  background: #011627 !important;
+  color: #fff !important;
+}
+
+._n_v_b div[role="navigation"] li a {
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+  font-weight: 700;
+  padding: 10px;
+  width: 100%;
+  text-decoration: none;
+  height: 100% !important;
+  color: #000;
+  background: #fff;
+}
+
+.dock {
+  position: absolute;
+  background: #fff;
+  height: 100%;
+  width: 250px;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  z-index: 9999999;
+}
+
+.show {
+  left: 0;
+}
+
+.hd {
+  margin-left: -452px;
+}
+/*# sourceMappingURL=AppNav.css.map */

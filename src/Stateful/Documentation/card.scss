@@ -1,0 +1,50 @@
+.contain
+{
+    padding: 50px 13%;
+    position: absolute;
+    margin-top: -10%;
+    @media(max-width:600px)
+    {
+        padding: .5px;
+    }
+    .card
+    {
+        box-shadow: 0 2px 5px 0 #232323;
+        padding: 20px;
+        width: 100%;
+        max-height: auto;
+        border-radius: 6px;
+        background: #fff;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        grid-gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        border-bottom: 60px solid #25282b;
+        @media(max-width: 800px)
+        {
+            grid-template-columns: repeat(3, 34%);
+            width: 90%;
+            border-bottom: o !important;
+        box-shadow:none !important;
+        padding: 2px;
+
+            .col
+        {
+            width: 60% !important;
+            font-size: 14px;
+        }
+        }
+        @media(max-width:600px)
+        {
+            grid-template-columns: 100%;
+        }
+        .col
+        {
+            width: 100%;
+            margin: 10px  40px;padding: 20px;
+            text-align: left;
+        }
+    }
+}

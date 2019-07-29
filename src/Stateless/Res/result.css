@@ -1,0 +1,36 @@
+.modal {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #ff8a6598 !important;
+}
+
+.close {
+  -webkit-box-shadow: 0 2px 5px #00000087;
+          box-shadow: 0 2px 5px #00000087;
+  padding: .2em;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+  position: fixed;
+  right: 30px;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.close img {
+  width: 100%;
+}
+
+.hd {
+  display: none !important;
+  visibility: hidden;
+}
+/*# sourceMappingURL=result.css.map */

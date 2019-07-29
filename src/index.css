@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.abs
+{
+  position: absolute;
+}
+._PR5
+{
+  padding-right: 50px;
+}
+._D_F
+{
+  display: flex;
+}
+._F_C
+{
+  justify-content: center;
+}
+._D_F._F_E
+{
+  justify-content: flex-end;
+}
+._m_b3
+{
+  margin-bottom: 30px;
+}
+._CNT
+{
+  padding: 10px 50px;
+}
+.fff
+{
+  color: #011627;
+}
+.fira
+{
+  font-family: "fira sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-35%;)
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #fed;
+  border-color: #fed transparent #fed transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
